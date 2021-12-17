@@ -86,8 +86,6 @@
     + [&#x20;**User pools**](#--x20---user-pools--)
     + [**Identity pools**](#--identity-pools--)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 ## Types of services
 
