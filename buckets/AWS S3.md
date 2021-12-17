@@ -1,5 +1,25 @@
 # AWS-S3
 
+## Table of Content
+
+- [AWS-S3](#aws-s3)
+  * [Amazon S3 Buckets](#amazon-s3-buckets)
+      - [**Regions**](#--regions--)
+  * [AWS Configuration](#aws-configuration)
+  * [Finding AWS Buckets used by the target](#finding-aws-buckets-used-by-the-target)
+  * [Enumerating the bucket](#enumerating-the-bucket)
+  * [Enumerating a AWS User](#enumerating-a-aws-user)
+    + [Get buckets](#get-buckets)
+    + [User Information](#user-information)
+    + [Get User Policies](#get-user-policies)
+    + [User privileges enumeration and privilege escalation](#user-privileges-enumeration-and-privilege-escalation)
+    + [Find and Download Elastic Container Registry](#find-and-download-elastic-container-registry)
+    + [Get Snapshots](#get-snapshots)
+  * [Mounting an EC2 snapshot](#mounting-an-ec2-snapshot)
+  * [SSRF attacks through AWS](#ssrf-attacks-through-aws)
+  * [Tools to scan the configuration of buckets **or to discover buckets**](#tools-to-scan-the-configuration-of-buckets---or-to-discover-buckets--)
+  * [**List of Open Buckets**](#--list-of-open-buckets--)
+
 ## Amazon S3 Buckets
 
 A bucket is typically considered “public” if any user can list the contents of the bucket, and “private” if the bucket's contents can only be listed or written by certain S3 users. This is important to understand and emphasize. _**A public bucket will list all of its files and directories to any user that asks.**_
