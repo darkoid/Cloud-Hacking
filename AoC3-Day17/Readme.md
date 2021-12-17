@@ -1,8 +1,8 @@
 ## Advent of Cyber 3 2021 Day 17's task
 
-To read about buckets in AWS S3 go here[https://github.com/darkoid/Cloud-Hacking/blob/main/buckets/AWS%20S3.md]
+To read about buckets in AWS S3 go [here](https://github.com/darkoid/Cloud-Hacking/blob/main/buckets/AWS%20S3.md)
 
-To read about AWS security go here[https://github.com/darkoid/Cloud-Hacking/blob/main/Cloud%20Security/AWS%20Security.md]
+To read about AWS security go [here][https://github.com/darkoid/Cloud-Hacking/blob/main/Cloud%20Security/AWS%20Security.md]
 
 ## Script
 
